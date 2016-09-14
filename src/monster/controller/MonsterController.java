@@ -21,6 +21,6 @@ public class MonsterController
 	public void start()
 	
 	{
-		System.out.println("Here is my monster" + spook);
+		System.out.println("Here is my monster: " + spook);
 	}
 }

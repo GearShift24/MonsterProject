@@ -10,7 +10,7 @@ public class MarshMallowMonster
 	private int armCount;
 	private int noseCount;
 	
-	public MarshMallowMonster()
+	public MarshMallowMonster() /* this is a constructor*/
 	{
 		this.name = "no name here";
 		this.legCount = -23242.554;
@@ -35,5 +35,49 @@ public class MarshMallowMonster
 		this.noseCount = noseCount;
 	}
 	
+	public String toString() /*this is a method */
+	{
+		String description = "Name is " + this.name;
+		
+		return description;
+	}
+	
+	
+	
+	
+	
+	
+	public String getName()
+	
+	{
+		return name;
+	}
+	
+	
+	public double getlegCount()
+	{
+		return legCount;
+	}
+	
+	
+	public int geteyeCount()
+	{
+		return eyeCount;
+	}
+	
+	public boolean gethasBellyButton()
+	{
+		return hasBellyButton;
+	}
+	
+	public int getarmCount()
+	{
+		return armCount;
+	}
+	
+	public int getnoseCount()
+	{
+		return noseCount;
+	}
 }
 
