@@ -35,15 +35,5 @@ public class MarshMallowMonster
 		this.noseCount = noseCount;
 	}
 	
-	/* 
-	name = SpookThulu
-  * 5 tentacles
-  *  3 feet
-  *    4 eyes
-  *      2 ears
-  *        1 back
-  *          2 fatSlabs
- */
-	
 }
 
