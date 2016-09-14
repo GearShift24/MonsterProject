@@ -10,7 +10,7 @@ public class MonsterController
 	public MonsterController()
 	{
 		spook = new MarshMallowMonster("SpookThulu",
-												 2.0,
+												 2,
 												    4,
 													 false,
 													   3,
@@ -22,5 +22,10 @@ public class MonsterController
 	
 	{
 		System.out.println("Here is my monster: " + spook);
+		System.out.println("My monster has this many legs " + spook.getlegCount());
+		if(spook.getlegCount() < 2)
+		{
+			System.out.println("Hot dang you cant even move --- OH NOOOO!!!!");
+		}
 	}
 }
