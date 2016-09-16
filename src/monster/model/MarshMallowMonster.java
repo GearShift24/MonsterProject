@@ -44,9 +44,6 @@ public class MarshMallowMonster
 	
 	
 	
-	
-	
-	
 	public String getName()
 	
 	{
@@ -79,5 +76,38 @@ public class MarshMallowMonster
 	{
 		return noseCount;
 	}
+	
+		//swap between getters and setters //
+	
+	public void setname(String name)
+	{
+		this.name = name;
+	}
+	
+	public void setlegCount(double legCount)
+	{
+		this.legCount = legCount;
+	}
+	
+	public void seteyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
+	}
+	
+	public void sethasBellyButton(boolean hasBellyButton)
+	{
+		this.hasBellyButton = hasBellyButton;
+	}
+	
+	public void setarmCount(int armCount)
+	{
+		this.armCount = armCount;
+	}
+	
+	public void setnoseCount(int noseCount)
+	{
+		this.noseCount = noseCount;
+	}
+	
 }
 
