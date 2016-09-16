@@ -49,6 +49,27 @@ public class MonsterController
 		int newEyes = keyboardInput.nextInt();
 		spook.seteyeCount(newEyes);
 		
+		System.out.println("Lets continue, does your guy have a belly button?");
+		String newBelly = keyboardInput.nextLine();
+		
+		if (newBelly.equalsIgnoreCase("yes") )
+		{
+			spook.sethasBellyButton(true);
+		}
+		else
+		{
+			spook.sethasBellyButton(false);
+		}
+		
+		
+		System.out.println("Now pick the amount of arms");
+		int newArm = keyboardInput.nextInt();
+		spook.setarmCount(newArm);
+		
+		
+		System.out.println("finally choose the amount of noses.");
+		int newNose = keyboardInput.nextInt();
+		spook.setnoseCount(newNose);
 		
 //		if (answer.equalsIgnoreCase("yes") )
 //		{
