@@ -28,9 +28,10 @@ public class MonsterController
 			System.out.println("Hot dang you cant even move --- OH NOOOO!!!!");
 		}
 		
-		System.out.println("As well, he has " + spook.geteyeCount() + "Eyes!");
-		System.out.println("Some people think he has a belly button, but in reality that statement is" + spook.gethasBellyButton());
+		System.out.println("As well, he has " + spook.geteyeCount() + " Eyes!");
+		System.out.println("Some people think he has a belly button, but in reality that statement is " + spook.gethasBellyButton());
 		System.out.println( "for his number of arms, it looks like he has a total of "+ spook.getarmCount());
 		System.out.println( "Finally he has "+ spook.getnoseCount() + " noses! ");
 	}
 }
+
