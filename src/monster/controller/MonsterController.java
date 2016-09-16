@@ -38,9 +38,16 @@ public class MonsterController
 //		System.out.println( "Finally he has "+ spook.getnoseCount() + " noses! ");
 		
 		System.out.println("WELCOME TO THE MONSTER MAKRRR. LETS GET GOING. WHAT NAME DO YOU WANT YOUR MONTROROOO TO BE??");
-		String answer = keyboardInput.nextLine();
+		String newName = keyboardInput.nextLine();
+		spook.setname(newName);
+	
+		System.out.println("How many legs do you want?");
+		Double newLegs = keyboardInput.nextDouble();
+		spook.setlegCount(newLegs);
 		
-		
+		System.out.println("Now, how many eyes you want?");
+		int newEyes = keyboardInput.nextInt();
+		spook.seteyeCount(newEyes);
 		
 		
 //		if (answer.equalsIgnoreCase("yes") )
@@ -60,9 +67,9 @@ public class MonsterController
 		System.out.println("Here is your final monster that you made: ");
 			System.out.println("its name is " + spook);
 			System.out.println("It has " + spook.getlegCount() + " Legs");
-			System.out.println("You choose for your monster to have" + spook.geteyeCount() + " eyes!");
-			System.out.println("You choose for the fact of it having a belly button to be" + spook.gethasBellyButton());
-			System.out.println("As for its amount of arms you choose" + spook.getarmCount());
+			System.out.println("You choose for your monster to have " + spook.geteyeCount() + " eyes!");
+			System.out.println("You choose for the fact of it having a belly button to be " + spook.gethasBellyButton());
+			System.out.println("As for its amount of arms you choose " + spook.getarmCount());
 			System.out.println("Finally you choose for your guy to have " + spook.getnoseCount() + "Noses!");
 			System.out.println("What a great monster. I mean spookthulu is better but whatever.");
 	
