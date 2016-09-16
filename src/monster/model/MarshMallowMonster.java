@@ -37,7 +37,7 @@ public class MarshMallowMonster
 	
 	public String toString() /*this is a method */
 	{
-		String description = "The wonderous name that exists is  " + this.name;
+		String description = "The wonderous name that exists is " + this.name;
 		
 		return description;
 	}

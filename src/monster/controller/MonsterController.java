@@ -48,6 +48,7 @@ public class MonsterController
 		System.out.println("Now, how many eyes you want?");
 		int newEyes = keyboardInput.nextInt();
 		spook.seteyeCount(newEyes);
+		keyboardInput.nextLine(); 
 		
 		System.out.println("Lets continue, does your guy have a belly button?");
 		String newBelly = keyboardInput.nextLine();
@@ -60,12 +61,12 @@ public class MonsterController
 		{
 			spook.sethasBellyButton(false);
 		}
-		
+
 		
 		System.out.println("Now pick the amount of arms");
 		int newArm = keyboardInput.nextInt();
 		spook.setarmCount(newArm);
-		
+		System.out.println();
 		
 		System.out.println("finally choose the amount of noses.");
 		int newNose = keyboardInput.nextInt();
@@ -91,7 +92,7 @@ public class MonsterController
 			System.out.println("You choose for your monster to have " + spook.geteyeCount() + " eyes!");
 			System.out.println("You choose for the fact of it having a belly button to be " + spook.gethasBellyButton());
 			System.out.println("As for its amount of arms you choose " + spook.getarmCount());
-			System.out.println("Finally you choose for your guy to have " + spook.getnoseCount() + "Noses!");
+			System.out.println("Finally you choose for your guy to have " + spook.getnoseCount() + " Noses!");
 			System.out.println("What a great monster. I mean spookthulu is better but whatever.");
 	
 	}
