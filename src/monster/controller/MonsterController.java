@@ -21,21 +21,10 @@ public class MonsterController
 														  );
 		keyboardInput = new Scanner(System.in);
 	}
-		
 	public void start()
 	
 	{
-//		System.out.println("Here is my monster: " + spook);
-//		System.out.println("My monster has this many legs " + spook.getlegCount());
-//		if(spook.getlegCount() < 2)
-//		{
-//			System.out.println("Hot dang you can't even move --- OH NOOOO!!!!");
-//		}
-		
-//		System.out.println("As well, he has " + spook.geteyeCount() + "Eyes!");
-//		System.out.println("Some people think he has a belly button, but in reality that statement is" + spook.gethasBellyButton());
-//		System.out.println( "for his number of arms, it looks like he has a total of "+ spook.getarmCount());
-//		System.out.println( "Finally he has "+ spook.getnoseCount() + " noses! ");
+
 		
 		System.out.println("WELCOME TO THE MONSTER MAKRRR. LETS GET GOING. WHAT NAME DO YOU WANT YOUR MONTROROOO TO BE??");
 		String newName = keyboardInput.nextLine();
@@ -71,20 +60,12 @@ public class MonsterController
 		System.out.println("finally choose the amount of noses.");
 		int newNose = keyboardInput.nextInt();
 		spook.setnoseCount(newNose);
-		
-//		if (answer.equalsIgnoreCase("yes") )
-//		{
-//			System.out.println("What do you want my new name to be?");
-//			String newName = keyboardInput.nextLine();
-//			spook.setname(newName);
-//		}
-//		else
-//		{
-//			System.out.println("I HATED YOU ANYWAYS, GO AWAY THEN RAWR");
-
-			
-			
+		endResults();
+	
 	//where it says your final monster//
+	}
+public void endResults()
+{
 		
 		System.out.println("Here is your final monster that you made: ");
 			System.out.println("its name is " + spook);
@@ -94,6 +75,44 @@ public class MonsterController
 			System.out.println("As for its amount of arms you choose " + spook.getarmCount());
 			System.out.println("Finally you choose for your guy to have " + spook.getnoseCount() + " Noses!");
 			System.out.println("What a great monster. I mean spookthulu is better but whatever.");
+			
+		}	
 	
-	}
 }
+
+
+
+
+//loopMonster();
+//}
+//private void loopMonster()
+//{
+////define a variable for condition/test
+//int numberOfTimes = 0;
+//while(numberOfTimes < 1000)
+//{
+////Code to do
+//System.out.println("EYYYY: " + spook + ". ");
+//
+////code to change variable for condition
+//numberOfTimes++;
+//
+//}
+//
+//
+//
+//for(int count = 0; count < 1000; count++)
+//{
+//System.out.println("EYYYY: " + spook + ". ");
+//}
+//
+//
+
+
+
+
+
+
+
+
+
